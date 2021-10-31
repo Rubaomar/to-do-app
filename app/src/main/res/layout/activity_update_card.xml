@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Update Details"
+        android:textColor="@color/black"
+        android:textSize="36sp" />
+
+    <EditText
+        android:id="@+id/create_task"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Task"
+        android:layout_marginTop="30dp"
+        android:padding="15dp"
+        android:textColorHint="#BFBBBB" />
+
+    <EditText
+        android:id="@+id/create_detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:lines="1"
+        android:hint="Detail (Optional)"
+        android:padding="15dp"
+        android:textColorHint="#BFBBBB" />
+
+    <EditText
+        android:id="@+id/create_deuDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Due Date (Optional)"
+        android:padding="15dp"
+        android:textColorHint="#BFBBBB" />
+
+
+    <EditText
+        android:id="@+id/create_priority"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Priority: High, Medium, Low"
+        android:padding="15dp"
+        android:textColorHint="#BFBBBB" />
+
+    <TextView
+        android:id="@+id/date_created"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Created date:"
+        android:padding="15dp"
+        android:textColorHint="#BFBBBB"/>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/deleteBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="10dp"
+        android:clickable="true"
+        android:paddingLeft="15dp"
+        app:srcCompat="@drawable/ic_baseline_delete_24" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/updateBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="240dp"
+        android:clickable="true"
+        android:paddingRight="15dp"
+        app:srcCompat="@drawable/ic_baseline_check_24" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|bottom"
+        android:layout_marginTop="150dp"
+        android:orientation="horizontal">
+
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
+
+
+
+
